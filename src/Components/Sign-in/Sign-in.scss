@@ -1,0 +1,26 @@
+.button-flex{
+    display: flex;
+    flex-direction: column;
+    .signinwithgoogle{
+        position:relative;
+        left:25%
+    }
+    
+}
+.division{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:rgb(105, 106, 107);
+    font-size: 20px;
+}
+.input{
+    height: 30px;
+    border-radius: 3px;
+    margin:10px;
+    width:300px;
+    text-align: center;
+}
+.linktosignout{
+    text-decoration: none;
+
+}

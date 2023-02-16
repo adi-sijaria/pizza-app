@@ -1,0 +1,22 @@
+.authentication-container{
+    position: relative;
+    top:100px;
+    height: 600px;
+    width:500px;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .authentication-container {
+      position: relative;
+      left:5%;
+      width:400px;
+      margin-right: 40px;
+    }
+  }

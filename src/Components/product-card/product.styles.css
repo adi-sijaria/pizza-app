@@ -1,0 +1,30 @@
+.product-card{
+    background-color: rgb(246, 249, 249);
+    width: 400px;
+    height: 500px;
+    
+    
+   
+    
+
+}
+.product-card:hover{
+   background-color: black;
+}
+.image-holder{
+    width: 400px;
+    position:center;
+}
+.details{
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+/* .button-c{
+    /* position: static;
+    top:70px */
+    /* margin-left:50px;
+    margin:30px;
+    align-items: center;
+     */
+

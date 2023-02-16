@@ -3,11 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { ProductsProvider } from './Context/product.context';
+import { CartProvider } from './Context/cartcontext.context';
+import { ToogleProvider } from './Context/tooglemode.context';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+
+
+
+      <ProductsProvider>
+        <CartProvider>
+          <ToogleProvider>
+          <App />
+          </ToogleProvider>
+        </CartProvider>
+
+
+      </ProductsProvider>
+
+
+
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 

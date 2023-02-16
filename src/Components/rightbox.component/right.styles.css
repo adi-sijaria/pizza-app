@@ -1,0 +1,31 @@
+.box2-container{
+    height:600px;
+    width:600px;
+    background-color: rgb(141, 115, 81);
+    background-image:url("./pizza2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:20px;
+}
+.box2-container:hover{
+    opacity: 0.9;
+    
+    
+}
+.box-tag{
+    height:100px;
+    width:400px;
+    position:relative;
+    top:40%;
+    text-emphasis:center;
+    left:17%;
+    opacity: 0.7;
+    background-color: antiquewhite;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5em;
+    
+}
