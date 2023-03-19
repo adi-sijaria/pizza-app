@@ -44,7 +44,7 @@ const Navigation = () => {
             </ul>
             {/* <CartItem/> */}
 
-        {isCartOpen && <Cartdropdown/>}
+        {!isCartOpen && <Cartdropdown/>}
         </div>
         <Outlet/>
         

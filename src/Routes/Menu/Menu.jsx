@@ -21,9 +21,9 @@ const Menu = () => {
     <>
       <div className='menu-div'>
         <div className='component-container' style={{backgroundColor:darkmode?"#150050":"white"}}>
-          <span><Dropdown /></span>
+          {/* <span><Dropdown /></span> */}
           <span className='searchbox'><SearchBox/></span>
-          <span className='searchbox'><SortComponent/></span>
+          {/* <span className='searchbox'><SortComponent/></span> */}
           
         </div>
         <div className='pizza-menu-container'>
