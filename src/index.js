@@ -7,11 +7,12 @@ import { BrowserRouter } from 'react-router-dom';
 import { ProductsProvider } from './Context/product.context';
 import { CartProvider } from './Context/cartcontext.context';
 import { ToogleProvider } from './Context/tooglemode.context';
-
-
+import { Provider } from 'react-redux';
+// import { store } from './store/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <Provider store={store}> */}
     <BrowserRouter>
 
 
@@ -29,6 +30,7 @@ root.render(
 
 
     </BrowserRouter>
+    {/* </Provider> */}
 
   </React.StrictMode>
 );

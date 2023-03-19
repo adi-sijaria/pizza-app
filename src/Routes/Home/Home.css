@@ -1,0 +1,72 @@
+.image-container{
+    height: 730px;
+    width: 100%;
+    background-image: url("./th.jpeg");
+    position: relative;
+    top:76px;
+    background-size: 100% 100%;
+
+
+}
+.text{
+    color: white;
+    text-shadow: 10px 10px 10px 10px rgb(197, 232, 220);
+    position: relative;
+    top:250px;
+    left:300px;
+    width: fit-content;
+    font-size: 20px;
+    animation-name: example;
+  animation-duration: 1s;
+ 
+  align-items:center;
+  
+ 
+
+}
+@keyframes example {
+    0%   {font-size: 5px;}
+   
+    100% {font-size: 20px;}
+  }
+.order-button{
+    width: 130px;
+    height: 60px;
+    background-color: rgb(195, 195, 174);
+    border-radius: 20px;
+    margin-top: 10px;
+    position: relative;
+    left:30%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: buttonbig;
+    animation-duration: 1s;
+    box-shadow: 10px 10p 10px 10px yellow;
+
+
+}
+.order-button:hover{
+    animation-name: buttonbig;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+  
+ 
+ 
+    
+}
+@keyframes buttonbig {
+    0% {width: 100px;   }
+    100%{width:130px ;height:80 ;}
+    
+}
+
+
+.tag{
+    text-shadow: 10px 10px 10px 10px rgb(233, 233, 240);
+    font-family: 'Golos Text', sans-serif;
+    text-shadow: 10px 10p 10px 10px yellow;
+
+
+    
+
+}

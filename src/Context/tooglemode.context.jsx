@@ -9,7 +9,7 @@ export const ToogleProvider=({children})=>{
         
         
         if(darkmode){
-            document.body.style.backgroundColor="#150050"
+            document.body.style.backgroundColor="rgb(18, 3, 32)"
             //00337C
         }
         else{

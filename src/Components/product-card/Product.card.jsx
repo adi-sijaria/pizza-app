@@ -15,7 +15,7 @@ const Productcard=({pizzamenu})=>{
     console.log(cartItems);
     //3F0071
     return(
-        <div className="product-card" style={{backgroundColor:darkmode?"#00337C": "rgb(246, 249, 249)",color:"black"}} id={id}>
+        <div className="product-card" style={{backgroundColor:darkmode?"black": "rgb(246, 249, 249)",color:darkmode?"white": "black",boxShadow:darkmode?"5px 5px 5px 5px rgb(40, 28, 101)" : " 10px 10px 10px 10px gray"}} id={id}>
           
                 
             <img className="image-holder" src={img} alt={`${name}`}/>
@@ -27,7 +27,7 @@ const Productcard=({pizzamenu})=>{
                 <h3 style={{textAlign:'center'}} >{description.slice(0,50)}</h3>
             </div >
                 <div className="button-c">
-                    <Button  type="inverted" onClick={addProductToCart}>ADD TO CART</Button>
+                    <Button  type="inverted" onClick={addProductToCart} >ADD TO CART</Button>
 
                 </div>
                 

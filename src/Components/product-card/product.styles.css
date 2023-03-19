@@ -2,15 +2,16 @@
     background-color: rgb(246, 249, 249);
     width: 400px;
     height: 500px;
+    /* box-shadow: 10px 10px 10px 10px gray; */
     
     
    
     
 
 }
-.product-card:hover{
+/* .product-card:hover{
    background-color: black;
-}
+} */
 .image-holder{
     width: 400px;
     position:center;
@@ -20,11 +21,9 @@
     justify-content: center;
     text-align: center;
 }
-/* .button-c{
-    /* position: static;
-    top:70px */
-    /* margin-left:50px;
-    margin:30px;
-    align-items: center;
-     */
+ .button-c{
+    position: relative;
+    left: 70px;
+    
+}
 

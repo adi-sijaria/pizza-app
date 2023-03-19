@@ -9,6 +9,7 @@ import GoogleButton from 'react-google-button'
 import { ToogleContext } from '../../Context/tooglemode.context'
 const Cartdropdown = () => {
     const {cartItems}=useContext(CartContext);
+    console.log(cartItems)
     const {darkmode,SetDarkMode}=useContext(ToogleContext)
     const navigate=useNavigate();
     const goToCheckoutHandler=()=>{
@@ -20,7 +21,7 @@ const Cartdropdown = () => {
 
     <div className='cart-dropdown-container' style={{backgroundColor:darkmode?"purple":"white"}}>
       <div className='cart-items'>
-        {cartItems.map((cartitem)=>(<CartItem key={cartitem.id}cartItem={cartitem}/>))}
+        {cartItems.map((cartitem)=>(<CartItem key={cartitem.id} cartItem={cartitem}/>))}
         </div>
         <Button onClick={goToCheckoutHandler}>CHECKOUT</Button>
       

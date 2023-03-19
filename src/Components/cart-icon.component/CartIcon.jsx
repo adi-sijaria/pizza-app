@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import { CartContext } from '../../Context/cartcontext.context';
 
 const CartIcon = () => {
-    const {cartItems,isCartOpen,setIsCartOpen}=useContext(CartContext);
+    const {cartItems,isCartOpen,setIsCartOpen,cartCount}=useContext(CartContext);
     let quantity=0;
     cartItems.map((cartitem)=>quantity=quantity+cartitem.quantity);
     const tooglemode=()=>setIsCartOpen(!isCartOpen);
