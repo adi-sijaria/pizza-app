@@ -23,9 +23,12 @@ const Menu = () => {
         <div className='component-container' style={{backgroundColor:darkmode?"#150050":"white"}}>
           {/* <span><Dropdown /></span> */}
           <span className='searchbox'><SearchBox/></span>
+          
           {/* <span className='searchbox'><SortComponent/></span> */}
+          <i style={{position:"relative",left:"40px",color:"black"}}>*zoom out on mobilemode</i>
           
         </div>
+        
         <div className='pizza-menu-container'>
 
           {/* {Searchcart.map((pizzadetail) => (
