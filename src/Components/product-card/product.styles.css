@@ -26,6 +26,15 @@
     left: 70px;
     
 }
-@media screen {
+@media screen and (max-width: 494px) {
+    .product-card{
+        width: 300px;
+        height: 450px;
+        
+    }
+    .image-holder{
+        width: 300px;
+    }
+ 
     
 }

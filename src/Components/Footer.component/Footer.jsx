@@ -5,8 +5,8 @@ const Footer = () => {
     <div className='footer-component'>
         <div className="footer">
             <h1 className='footer-headings'>About Us</h1>
-            <ul>
-                <li>
+            <ul className='footer-data'>
+                <li >
                     Established: 20-03-2023
 
                     
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="footer">
         <h1 className='footer-headings'>outlets</h1>
-            <ul>
+            <ul className='footer-data'>
                 <li>
                     72 vijay nagar,indore,indore
 
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="footer">
         <h1 className='footer-headings'>Contact-Us</h1>
-            <ul>
+            <ul className='footer-data'>
                 <li>
                     
                      <email>p@yopmail.com</email>

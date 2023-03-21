@@ -24,6 +24,7 @@ const Productcard=({pizzamenu})=>{
             
             <div className="details">
                 <h1>{name}({price}$)</h1>
+                <br/>
                 <h3 style={{textAlign:'center'}} >{description.slice(0,50)}</h3>
             </div >
                 <div className="button-c">
