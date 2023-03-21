@@ -1,19 +1,23 @@
 import React from "react";
 import Leftbox from "../../Components/leftbox.component/leftbox.component";
+import { useNavigate } from "react-router-dom";
 import Rightbox from "../../Components/rightbox.component/rightbox";
 import Boxcomponent from "../../Components/Boxcomponent/Boxcomponent";
 import "./Home.css"
 import Footer from "../../Components/Footer.component/Footer";
 
-
 export default function Home() {
+  const navigate=useNavigate();
+  const gotocheckout=()=>{
+    navigate('./menu')
+  }
  
   return (
     <>
     <div className="image-container1">
       <div className="text">
         <h1 className="tag">Craving to grab a slice..?</h1>
-        <button className="order-button">Order Now</button>
+        <button className="order-button" onClick={gotocheckout}>Order Now</button>
       </div>
       
 

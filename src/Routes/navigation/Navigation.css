@@ -32,8 +32,18 @@
     cursor: pointer;
     padding: 0px 10px;
 }
-@media screen and (max-width:704px) {
-    
+@media screen and (max-width:604px) {
+   .nav-links{
+    font-size: 15px;
+
+   }
+   .home,.menu,.auth,.skills{
+    text-decoration: none;
+    margin:0px -4px;
+    color: rgb(253, 253, 255);
+    cursor: pointer;
+    padding: 0px 10px;
+}
     
     
 }
