@@ -3,6 +3,7 @@ import Leftbox from "../../Components/leftbox.component/leftbox.component";
 import Rightbox from "../../Components/rightbox.component/rightbox";
 import Boxcomponent from "../../Components/Boxcomponent/Boxcomponent";
 import "./Home.css"
+import Footer from "../../Components/Footer.component/Footer";
 
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
     <>
     <div className="image-container1">
       <div className="text">
-        <h1 className="tag">Craving to grab a slice</h1>
+        <h1 className="tag">Craving to grab a slice..?</h1>
         <button className="order-button">Order Now</button>
       </div>
       
@@ -24,6 +25,9 @@ export default function Home() {
       <div className="reason 3"><b>Your wishes our duty</b><br/><br/>Overall, our pizza app offers a delicious, convenient, and customizable pizza experience with high-quality ingredients and excellent customer service. Give us a try, and we're confident you'll love our pizzas!</div>
 
     </div>
+    <Footer/>
+    
+
     
     
     
