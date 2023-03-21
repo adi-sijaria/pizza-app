@@ -15,6 +15,12 @@
     /* position: absolute; */
     z-index: 1;
 }
+.toogle-button{
+    /* border-radius: 20px; */
+    width: 50px;
+    color: black;
+    box-shadow: 2px 3px 2px 2px rgb(83, 80, 79);
+}
 .logo-container{
     font-size:  30px;
 }
@@ -32,7 +38,7 @@
     cursor: pointer;
     padding: 0px 10px;
 }
-@media screen and (max-width:604px) {
+@media screen and (max-width:404px) {
    .nav-links{
     font-size: 15px;
 
@@ -43,6 +49,7 @@
     color: rgb(253, 253, 255);
     cursor: pointer;
     padding: 0px 10px;
+    padding-top: 10px;
 }
     
     

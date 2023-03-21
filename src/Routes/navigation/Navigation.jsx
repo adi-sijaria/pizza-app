@@ -18,7 +18,7 @@ const Navigation = () => {
   return (
     <>
         <div className='navbar' style={{backgroundColor:darkmode?"#000000": "rgb(42, 41, 43)",color:darkmode?"white":'white'}}>
-            <div className='logo'><button onClick={()=>SetDarkMode(!darkmode)}>{mode}</button></div>
+            <div className='logo'><button className='toogle-button' onClick={()=>SetDarkMode(!darkmode,darkmode?Setmode("dark"):Setmode("light"))}>{mode}</button></div>
             <ul className='nav-links'>
                 <Link to='/' className='home'style={{
                     color:darkmode?"white":'white'}}>
