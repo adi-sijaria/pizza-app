@@ -19,6 +19,12 @@
     
     width: 600px;
 }
+@media screen and (max-width:704px) {
+    li{
+        font-size: 20px;
+    }
+    
+}
 @media screen and (max-width: 604px) {
     .footer{
         margin: 10px;
@@ -42,9 +48,7 @@
     
     
     }
-    li{
-        font-size: 20px;
-    }
+   
     .footer-data{
         font-size: 10px;
     }
