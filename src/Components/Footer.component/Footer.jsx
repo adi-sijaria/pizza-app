@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer-component'>
         <div className="footer">
-            <h1>About Us</h1>
+            <h1 className='footer-headings'>About Us</h1>
             <ul>
                 <li>
                     Established: 20-03-2023
@@ -27,7 +27,7 @@ const Footer = () => {
             
         </div>
         <div className="footer">
-        <h1>outlets</h1>
+        <h1 className='footer-headings'>outlets</h1>
             <ul>
                 <li>
                     72 vijay nagar,indore,indore
@@ -51,7 +51,7 @@ const Footer = () => {
             
         </div>
         <div className="footer">
-        <h1>Contact us Us</h1>
+        <h1 className='footer-headings'>Contact-Us</h1>
             <ul>
                 <li>
                     
