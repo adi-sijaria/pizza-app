@@ -22,19 +22,19 @@ const Navigation = () => {
             <ul className='nav-links'>
                 <Link to='/' className='home'style={{
                     color:darkmode?"white":'white'}}>
-                    <li>
+                    <li className='nav-text'>
                         Home
                     </li>
                 </Link>
                  <Link to='/menu' className='menu'style={{
                     color:darkmode?"white":'white'}}>
-                    <li>
+                    <li   className='nav-text'>
                         Menu
                     </li>
                 </Link>
                  <Link to='/auth' className='auth' style={{
                     color:darkmode?"white":'white'}}>
-                    <li>
+                    <li  className='nav-text'>
                         Signin
                     </li>
                 </Link>   
